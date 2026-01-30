@@ -17,8 +17,8 @@ This repository contains my submission for the **Mint and Trade SPL Tokens** obj
 ##  Proof of Minting
 Below is the screenshot of the token supply and details as seen on the Solana Explorer.
 
-![Token Screenshot](<img width="1909" height="918" alt="Screenshot 2026-01-30 205825" src="https://github.com/user-attachments/assets/2bb12f09-0d4e-419f-a502-49f86a7026d1" />
-)
+![Token Screenshot]("C:\Users\utkar\OneDrive\Pictures\Screenshots\Screenshot 2026-01-30 205825.png")>
+
 
 ---
 
