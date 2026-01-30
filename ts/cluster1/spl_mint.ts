@@ -33,5 +33,5 @@ const mint = new PublicKey("34h2ykgQ1jFarABav8oJdFZ8AfGmUjN5JZbcPwipTRe4");
 })()
 
 //
-// Your ata is: 4G5uk9dGryeeh95M5UD8HTKTkUZf7dKwFsh4LfC7ur3R
-// Your mint txid: 5f2tWeJBZESEvyHzdv5yHpc2jCyG492hHBdFy7mhkQrR2L3HbRnJNix3FARm7dH61KwDSo8KabjZ3Zqq14g6Zxyr
+// Mint ATA: 4G5uk9dGryeeh95M5UD8HTKTkUZf7dKwFsh4LfC7ur3R
+// Mint tx hash: 5f2tWeJBZESEvyHzdv5yHpc2jCyG492hHBdFy7mhkQrR2L3HbRnJNix3FARm7dH61KwDSo8KabjZ3Zqq14g6Zxyr

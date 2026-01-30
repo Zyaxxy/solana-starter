@@ -23,4 +23,4 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
     }
 })()
 
-// Minted Successfully:34h2ykgQ1jFarABav8oJdFZ8AfGmUjN5JZbcPwipTRe4 
+// Token Address:34h2ykgQ1jFarABav8oJdFZ8AfGmUjN5JZbcPwipTRe4 
