@@ -13,7 +13,7 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
 const mint = new PublicKey("34h2ykgQ1jFarABav8oJdFZ8AfGmUjN5JZbcPwipTRe4");
 
 // Recipient address
-const to = new PublicKey("4Y4WVbADEkr8q4wtk7RzTryE1o4fyMvZWL6mycR45KaC>");
+const to = new PublicKey("4Y4WVbADEkr8q4wtk7RzTryE1o4fyMvZWL6mycR45KaC");
 
 (async () => {
     try {
@@ -25,8 +25,11 @@ const to = new PublicKey("4Y4WVbADEkr8q4wtk7RzTryE1o4fyMvZWL6mycR45KaC>");
 
         // Transfer the new token to the "toTokenAccount" we just created
 
-        const tx= await transfer(connection,keypair,fromWallet.address,toWallet.address,to, 10)
+        const tx = await transfer(connection,keypair,fromWallet.address,toWallet.address,keypair, 10e6)
+        console.log(tx)
     } catch(e) {
         console.error(`Oops, something went wrong: ${e}`)
     }
 })();
+
+//tx: 3XjtG19Vqv5VjmtwB8xQ83aV8q22TfrcYcuDipHDPYrEUSgLTBYEYZfRdgRuYNdXcVBMPZazwckVTiritUgYmT51
