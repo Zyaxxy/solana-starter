@@ -10,7 +10,7 @@ const commitment: Commitment = "confirmed";
 const connection = new Connection("https://api.devnet.solana.com", commitment);
 
 // Mint address
-const mint = new PublicKey("34h2ykgQ1jFarABav8oJdFZ8AfGmUjN5JZbcPwipTRe4");
+const mint = new PublicKey("6EQG1uyVagQCFTtEyvuW7H4VC43zu49irmd9Szny4oqm");
 
 // Recipient address
 const to = new PublicKey("4Y4WVbADEkr8q4wtk7RzTryE1o4fyMvZWL6mycR45KaC");
@@ -25,7 +25,7 @@ const to = new PublicKey("4Y4WVbADEkr8q4wtk7RzTryE1o4fyMvZWL6mycR45KaC");
 
         // Transfer the new token to the "toTokenAccount" we just created
 
-        const tx = await transfer(connection,keypair,fromWallet.address,toWallet.address,keypair, 10e6)
+        const tx = await transfer(connection,keypair,fromWallet.address,toWallet.address,keypair, 1)
         console.log(tx)
     } catch(e) {
         console.error(`Oops, something went wrong: ${e}`)
@@ -33,3 +33,5 @@ const to = new PublicKey("4Y4WVbADEkr8q4wtk7RzTryE1o4fyMvZWL6mycR45KaC");
 })();
 
 //tx: 3XjtG19Vqv5VjmtwB8xQ83aV8q22TfrcYcuDipHDPYrEUSgLTBYEYZfRdgRuYNdXcVBMPZazwckVTiritUgYmT51
+
+// NFT Transfer tx: dW2QuHeb7hSkyzYdNuWQZ9UUaw2e9xAk7GioBMryFqkqFE4Hc3Xke9f4XYcpaPiEft7cBKWQ55BjnkNHEAW9U6q
