@@ -22,3 +22,10 @@ Below is the screenshot of the NFT and details as seen on the Solana Explorer.
 ## Links
 - [NFT](https://explorer.solana.com/address/6EQG1uyVagQCFTtEyvuW7H4VC43zu49irmd9Szny4oqm?cluster=devnet)
 - [MINT-TX](https://explorer.solana.com/address/6EQG1uyVagQCFTtEyvuW7H4VC43zu49irmd9Szny4oqm?cluster=devnet)
+
+## Problem and Solution in Trading
+Problem:
+Manual P2P transfers suffer from Counterparty Risk.
+The party who "goes first" is vulnerable to theft. If the NFT is sent before payment is confirmed, the sender has no recourse to recover the asset if the buyer defaults.
+
+Solution: Atomic Transactions & Escrows
